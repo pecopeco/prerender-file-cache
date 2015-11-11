@@ -13,10 +13,12 @@
   "keywords": [
     "prerender",
     "filesystem",
+    "gzip",
     "cache"
   ],
     "dependencies": {
-        "node-fs": ">= 0.1.7"
+        "node-fs": ">= 0.1.7",
+        "devdazed/gzip-buffer": "*"
     },
   "author": "Suhanov Vadim",
   "license": "BSD",
